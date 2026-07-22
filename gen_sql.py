@@ -2,8 +2,8 @@ import json
 import sqlite3
 import time
 
-uncompressed_file_path = "raw-wiktextract-data.jsonl"
-db_path = "english_wiktionary.db"
+uncompressed_file_path = "/experiment/etymology/raw-wiktextract-data.jsonl"
+db_path = "/experiment/etymology/english_wiktionary.db"
 
 conn = sqlite3.connect(db_path)
 cursor = conn.cursor()
