@@ -22,7 +22,7 @@ import sqlite3
 import sys
 from functools import lru_cache
 
-DB_PATH = "/mnt/etymology/english_wiktionary-verbs.db"
+DB_PATH = "/experiment/etymology/english_wiktionary-verbs.db"
 
 LATINATE_LABEL = "Latinate"
 GERMANIC_LABEL = "Germanic"
